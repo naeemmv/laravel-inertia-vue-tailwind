@@ -1,0 +1,60 @@
+@import '@fontsource-variable/inter';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.btn {
+    @apply
+        inline-flex
+        items-center
+        rounded-md
+        px-3
+        py-2
+        text-sm
+        shadow-sm
+        font-semibold
+        focus-visible:outline
+        focus-visible:outline-2
+        focus-visible:outline-offset-2;
+}
+
+.btn-primary {
+    @apply
+        bg-primary-500
+        text-white
+        hover:bg-primary-400
+        focus-visible:outline-primary-500;
+}
+
+.btn-secondary {
+    @apply
+        bg-secondary-500
+        text-white
+        hover:bg-secondary-400
+        focus-visible:outline-secondary-500;
+}
+
+.btn-success {
+    @apply
+        bg-success-500
+        text-white
+        hover:bg-success-400
+        focus-visible:outline-success-500;
+}
+
+.btn-warning {
+    @apply
+        bg-warning-500
+        text-white
+        hover:bg-warning-400
+        focus-visible:outline-warning-500;
+}
+
+.btn-danger {
+    @apply
+        bg-danger-500
+        text-white
+        hover:bg-danger-400
+        focus-visible:outline-danger-500;
+}
